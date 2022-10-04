@@ -122,3 +122,5 @@ You should see this in the response:
 8. Data from the task (expected: 96) ... 96
 ```
 
+Explanation of the last answer:
+![alt text](https://github.com/ivan-2727/taxCalculator/blob/main/example.png | width=100)
