@@ -123,4 +123,4 @@ You should see this in the response:
 ```
 
 Explanation of the last answer:
-![](https://github.com/ivan-2727/taxCalculator/blob/main/example.png)
+![](https://github.com/ivan-2727/taxCalculator/blob/main/example.png =100x250)
