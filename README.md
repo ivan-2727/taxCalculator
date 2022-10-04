@@ -123,4 +123,4 @@ You should see this in the response:
 ```
 
 Explanation of the last answer:
-<img src="https://github.com/ivan-2727/taxCalculator/blob/main/example.png" width="1000">
+<img src="https://github.com/ivan-2727/taxCalculator/blob/main/example.png" width="400">
