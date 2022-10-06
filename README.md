@@ -3,10 +3,13 @@
 ### Structure of the app 
 
 ##### Class CongestionTaxCalculator
-Tax rules are stored in three objects:
+Tax rules are stored in four properties:
 - `TreeMap<Integer, int[]> timeZones`, key: start time, value: array with two elements (endTime, price)
 - `HashSet<String> freeVehiclesNames`, names of tax-free vehicles as strings 
 - `HashMap<Integer, List<HashSet<Integer>>> freeDates`, key: year, value (array of size 12): hashset of numbers of free dates for each month 
+- `int oncePerThisPeriod` is the time period for which only one taxation can be applied (3600 s according to the task formulation)
+
+Functions:
 - `ReadLocalTaxRules` reads from the given text file
 - `PrintTaxRules` prints tax rules to the console
 - `GetTax(String vehicle, TimePoint[] times)` calculates the tax
